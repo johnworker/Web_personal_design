@@ -1,0 +1,495 @@
+/*小型設備（小型平板電腦和大型手機，767px及以下）*/
+@media only screen and (max-width:767px) {
+    html,body{
+    overflow-x: hidden;/* 從body框架外滑動進入時，不要出現橫向卷軸 */
+}
+    header, section{
+        height: 100vh;
+        max-width: 420px;
+        position: relative;
+        background-color: #222;
+    }
+    header h1{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        width: 200px;
+        color: white;
+        font-size: 2.5rem;
+    }
+    header nav{
+        left: 40px;
+        bottom: 80px;
+    }
+    header section{
+        position: absolute;
+        color: white;
+        width: 100px;
+        height: 35px;
+        top: 35%;
+        left: 20%;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+    }.word{
+      width: 200px;
+    }
+    .word p{
+      width: 200px;
+    }
+    .banner{
+        position: absolute;
+        display: block;
+        width: 40%;
+        height: 20%;
+        right: 0;
+        top: 100px;
+        margin: 0 auto;
+    }
+    section h2{
+        width: 50%;
+        margin: 0 20px;
+        color: white;
+        padding-top: 3%;
+        font-size: 3rem;
+    }
+    article{
+        position: absolute;
+        left: 15%;
+        top: 17%;
+        width: 50%;
+        color: white;
+        padding: 1px;
+        font-family: sans-serif;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    aside{
+      position: absolute;
+      left: 40px;
+      bottom: 20px;
+      width: 65%;
+  }
+  .sign p{
+    position: absolute;
+    right: 10px;
+    background-color:#222;
+    bottom: -350px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+  .point_2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 62px;
+    bottom: -349px;
+  }
+    .icon{
+        display: block;
+        transform: translateX(100%) translateY(80%);
+        width: 70px;
+        height: 70px;
+        margin: 20px;
+    }
+    .contactms{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 60px;
+        top: 270px;
+    }
+    .contactme{
+        display: none;
+    }
+    small{
+        display: block;
+        padding: 15px;
+        background-color:#222;
+        color: white;
+    }
+    footer{
+        position: relative;
+        background-color: #222;
+        width: 420px;
+    }
+    footer a{
+        position: absolute;
+        right: 60px;
+        background-color:#222;
+        bottom: 80px;
+        color: white;
+        text-decoration: none;
+        font-size: 1.3rem;
+    }
+    .pencil{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+
+
+}
+/*中型設備（大型平板電腦，768px及以上）*/
+@media only screen and (min-width:768px) {
+     html,body{
+      overflow-x: hidden;
+    } 
+    header section{
+        position: absolute;
+        color: white;
+        top: 45%;
+        left: 20%;
+        font-family: sans-serif;
+        font-size: 2rem;
+    }
+    .banner{
+        position: absolute;
+        display: block;
+        width: 35%;
+        height: 10%;
+        right: 0;
+        top: 100px;
+        margin: 0 auto;
+    }
+    article{
+        position: absolute;
+        left: 20%;
+        top: 5%;
+        width: 60%;
+        color: white;
+        padding: 120px;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .icon{
+        display: block;
+        transform: translateX(380%) translateY(400%);
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+    }
+    #Contact{
+      width: 100vw;
+      height: 100vh;
+    }
+    .contactms{
+        position: absolute;
+        width: 100x;
+        height: 100px;
+        left: 10px;
+        top: 200px;
+    }
+    .contactme{
+        position: absolute;
+        display: block;
+        width: 410px;
+        left: 250px;
+        top: 203px;
+        line-height: 25px;
+    }
+    small{
+      position: absolute;
+      display: block;
+      width: 600px;
+      bottom: 20px;
+      left: 20px;
+      background-color:#222;
+      color: white;
+  }
+    .pencil {
+        position: relative;
+        display: block;
+        top: 130px;
+        left: 320px;
+        width: 125px;
+        height: 30px;
+        /*width: 300px;*/
+        /*height: 40px;*/
+        transform-origin: center;
+        transform: rotate(135deg);
+        animation: pencil-animation 10s infinite;
+        z-index: 9999;
+      }
+      @keyframes pencil-animation {
+        0% {
+          transform: rotate(135deg);
+        }
+        20% {
+          transform: rotate(315deg);
+        }
+        45% {
+          transform: translateX(300px) rotate(315deg);
+        }
+        55% {
+          transform: translateX(300px) rotate(495deg);
+        }
+        100% {
+          transform: rotate(495deg);
+        }
+      }
+      .pencil__ball-point {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background:yellow;
+        height: 5px;
+        width: 5px;
+        border-radius: 50px;
+      }
+      .pencil__cap {
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        clip-path: polygon(20% 40%, 100% 0%, 100% 100%, 20% 60%);
+        background: rgb(109, 72, 13);
+        width: 12%;
+        height: 100%;
+      }
+      .pencil__cap-base {
+        position: absolute;
+        left: 12%;
+        top: 0;
+        height: 100%;
+        width: 20px;
+        background: #4d444d;
+      }
+      .pencil__middle {
+        position: absolute;
+        left: calc(12% + 20px);
+        top: 0;
+        height: 100%;
+        width: 70%;
+        background: #ac630f;
+      }
+      .pencil__eraser {
+        position: absolute;
+        left: calc(12% + 70% + 20px);
+        top: 0;
+        height: 100%;
+        width: 11%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background: white;
+      }
+      
+      .line {
+        position: relative;
+        top: 155px;
+        left: 0;
+        /*top: 130px;*/
+        /*left: 550px;*/
+        height: 3px;
+        width: 700px;
+        z-index: 99;
+        border-radius: 50px;
+        background: yellow;
+        transform: scaleX(0);
+        transform-origin: center;
+        animation: line-animation 10s infinite;
+      }
+      @keyframes line-animation {
+        20% {
+          transform: scaleX(0);
+        }
+        45% {
+          transform: scaleX(0.85);
+        }
+        55% {
+          transform: scaleX(0.85);
+        }
+        100% {
+          transform: scaleX(0);
+        }
+      }
+    }
+
+/*大型設備（筆記型電腦/桌機，992px及以上）*/
+@media only screen and (min-width:992px) {
+    header section{
+    overflow-x: hidden;
+        position: absolute;
+        color: white;
+        min-width: 768px;
+        top: 40%;
+        left: 45%;
+        font-family: sans-serif;
+        font-size: 2.5rem;
+    }
+    .banner{
+        position: absolute;
+        display: block;
+        width: 15%;
+        height: 10%;
+        right: 0;
+        top: 100px;
+        margin: 0 auto;
+    }
+    article{
+        position: absolute;
+        left: 20%;
+        top: 15%;
+        width: 60%;
+        color: white;
+        padding: 120px;
+        font-family: sans-serif;
+        font-size: larger;
+        line-height: 2rem;
+    }
+    .sign p{
+      position: absolute;
+      right: -615px;
+      background-color:#222;
+      bottom: -99px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.3rem;
+    }
+    .point_2{
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      right: -560px;
+      bottom: -98px;
+    }
+    .icon{
+        display: block;
+        transform: translateX(200%) translateY(400%);
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+    }
+    .contactms{
+        position: absolute;
+        width: 100x;
+        height: 100px;
+        left: 310px;
+        top: 100px;
+    }
+    .contactme{
+        position: absolute;
+        display: block;
+        width: 410px;
+        left: 160px;
+        top: 206px;
+    }
+    small{
+      position: absolute;
+      display: block;
+      width: 100%;
+      bottom: 20px;
+      left: 20px;
+      background-color:#222;
+      color: white;
+   }
+    .pencil {
+        position: relative;
+        top: 0;
+        left: 850px;
+        width: 10%;
+        height: 3%;
+        /*width: 300px;*/
+        /*height: 40px;*/
+        transform-origin: center;
+        transform: rotate(135deg);
+        animation: pencil-animation 10s infinite;
+        z-index: 9999;
+      }
+      @keyframes pencil-animation {
+        0% {
+          transform: rotate(135deg);
+        }
+        20% {
+          transform: rotate(315deg);
+        }
+        45% {
+          transform: translateX(300px) rotate(315deg);
+        }
+        55% {
+          transform: translateX(300px) rotate(495deg);
+        }
+        100% {
+          transform: rotate(495deg);
+        }
+      }
+    .pencil__ball-point {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background:yellow;
+        height: 5px;
+        width: 5px;
+        border-radius: 50px;
+      }
+      .pencil__cap {
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        clip-path: polygon(20% 40%, 100% 0%, 100% 100%, 20% 60%);
+        background: rgb(109, 72, 13);
+        width: 12%;
+        height: 100%;
+      }
+      .pencil__cap-base {
+        position: absolute;
+        left: 12%;
+        top: 0;
+        height: 100%;
+        width: 20px;
+        background: #4d444d;
+      }
+      .pencil__middle {
+        position: absolute;
+        left: calc(12% + 20px);
+        top: 0;
+        height: 100%;
+        width: 70%;
+        background: #ac630f;
+      }
+      .pencil__eraser {
+        position: absolute;
+        left: calc(12% + 70% + 20px);
+        top: 0;
+        height: 100%;
+        width: 11%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background: white;
+      }
+      
+      .line {
+        position: relative;
+        top: 50px;
+        left: 380px;
+        /*top: 130px;*/
+        /*left: 550px;*/
+        height: 3px;
+        width: 1000px;
+        z-index: 99;
+        border-radius: 50px;
+        background: yellow;
+        transform: scaleX(0);
+        transform-origin: center;
+        animation: line-animation 10s infinite;
+      }
+      @keyframes line-animation {
+        20% {
+          transform: scaleX(0);
+        }
+        45% {
+          transform: scaleX(0.6);
+        }
+        55% {
+          transform: scaleX(0.6);
+        }
+        100% {
+          transform: scaleX(0);
+        }
+      }
+} 
