@@ -33,7 +33,7 @@ header h1{
 }
 header nav{
     position: absolute;
-    left: 40px;
+    left: 60px;
     bottom: 150px;
     width: 65%;
 }
@@ -51,10 +51,11 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .mu_font {
   color: white !important;
+  font-size: 20px !important;
 }
 .point{
   position: absolute;
@@ -151,7 +152,7 @@ section a{
 }
 .menu a{
     color:black;
-    font-size: 16px;
+    font-size: 15px;
 }
 /* work */
 #work{

@@ -69,6 +69,9 @@
       bottom: 20px;
       width: 65%;
   }
+  #work {
+    height: 60vh;
+  }
   .sign p{
     position: absolute;
     right: 10px;
@@ -131,7 +134,7 @@
 
 
 }
-/*中型設備（大型平板電腦，768px及以上）*/
+/*中型設備（中型平板電腦，768px及以上）*/
 @media only screen and (min-width:768px) {
      html,body{
       overflow-x: hidden;
@@ -308,7 +311,7 @@
       }
     }
 
-/*大型設備（筆記型電腦/桌機，992px及以上）*/
+/*大型設備（筆記型電腦/大型平板電腦，992px及以上）*/
 @media only screen and (min-width:992px) {
     header section{
     overflow-x: hidden;
@@ -320,6 +323,225 @@
         font-family: sans-serif;
         font-size: 2.5rem;
     }
+    header h1{
+      position: absolute;
+      left: 40px;
+      top: 40px;
+      color: white;
+      font-size: 4.5rem;
+  }
+    header nav{
+      left: 100px;
+      bottom: 150px;
+    }
+    header section{
+      color: white;
+      top: 40%;
+      left: 25%;
+      height: 100px;
+      font-size: 2.5rem;
+  }
+    .banner{
+        position: absolute;
+        display: block;
+        width: 35%;
+        height: 10%;
+        right: 0;
+        top: 100px;
+        margin: 0 auto;
+    }
+    article{
+        position: absolute;
+        left: 20%;
+        top: 15%;
+        width: 60%;
+        color: white;
+        padding: 120px;
+        font-family: sans-serif;
+        font-size: larger;
+        line-height: 2rem;
+    }
+    .sign p{
+      position: absolute;
+      right: -615px;
+      background-color:#222;
+      bottom: -99px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.3rem;
+    }
+    .point_2{
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      right: -560px;
+      bottom: -98px;
+    }
+    .icon{
+        display: block;
+        transform: translateX(200%) translateY(400%);
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+    }
+    .contactms{
+        position: absolute;
+        width: 100x;
+        height: 100px;
+        left: 310px;
+        top: 100px;
+    }
+    .contactme{
+        position: absolute;
+        display: block;
+        width: 410px;
+        left: 160px;
+        top: 206px;
+    }
+    small{
+      position: absolute;
+      display: block;
+      width: 100%;
+      bottom: 20px;
+      left: 20px;
+      background-color:#222;
+      color: white;
+   }
+    .pencil {
+        position: relative;
+        top: 0;
+        left: 850px;
+        width: 10%;
+        height: 3%;
+        /*width: 300px;*/
+        /*height: 40px;*/
+        transform-origin: center;
+        transform: rotate(135deg);
+        animation: pencil-animation 10s infinite;
+        z-index: 9999;
+      }
+      @keyframes pencil-animation {
+        0% {
+          transform: rotate(135deg);
+        }
+        20% {
+          transform: rotate(315deg);
+        }
+        45% {
+          transform: translateX(300px) rotate(315deg);
+        }
+        55% {
+          transform: translateX(300px) rotate(495deg);
+        }
+        100% {
+          transform: rotate(495deg);
+        }
+      }
+    .pencil__ball-point {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background:yellow;
+        height: 5px;
+        width: 5px;
+        border-radius: 50px;
+      }
+      .pencil__cap {
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        clip-path: polygon(20% 40%, 100% 0%, 100% 100%, 20% 60%);
+        background: rgb(109, 72, 13);
+        width: 12%;
+        height: 100%;
+      }
+      .pencil__cap-base {
+        position: absolute;
+        left: 12%;
+        top: 0;
+        height: 100%;
+        width: 20px;
+        background: #4d444d;
+      }
+      .pencil__middle {
+        position: absolute;
+        left: calc(12% + 20px);
+        top: 0;
+        height: 100%;
+        width: 70%;
+        background: #ac630f;
+      }
+      .pencil__eraser {
+        position: absolute;
+        left: calc(12% + 70% + 20px);
+        top: 0;
+        height: 100%;
+        width: 11%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background: white;
+      }
+      
+      .line {
+        position: relative;
+        top: 50px;
+        left: 380px;
+        /*top: 130px;*/
+        /*left: 550px;*/
+        height: 3px;
+        width: 1000px;
+        z-index: 99;
+        border-radius: 50px;
+        background: yellow;
+        transform: scaleX(0);
+        transform-origin: center;
+        animation: line-animation 10s infinite;
+      }
+      @keyframes line-animation {
+        20% {
+          transform: scaleX(0);
+        }
+        45% {
+          transform: scaleX(0.6);
+        }
+        55% {
+          transform: scaleX(0.6);
+        }
+        100% {
+          transform: scaleX(0);
+        }
+      }
+} 
+
+/*超大型設備（筆記型電腦/桌機，1280px及以上）*/
+@media only screen and (min-width:1280px) {
+    header section{
+    overflow-x: hidden;
+        position: absolute;
+        color: white;
+        min-width: 768px;
+        top: 40%;
+        left: 45%;
+        font-family: sans-serif;
+        font-size: 2.5rem;
+    }
+    header nav{
+      position: absolute;
+      left: 60px;
+      bottom: 150px;
+      width: 65%;
+  }
+    header section{
+      position: absolute;
+      color: white;
+      top: 40%;
+      left: 45%;
+      height: 100px;
+      font-family: sans-serif;
+      font-size: 2.5rem;
+  }
     .banner{
         position: absolute;
         display: block;
