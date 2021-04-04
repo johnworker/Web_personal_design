@@ -61,7 +61,7 @@ nav a{
   position: absolute;
   width: 20px;
   height: 20px;
-  left: 20px;
+  left: -20px;
 }
 header>li{
     color: white;
@@ -241,9 +241,11 @@ section a{
 }
 .slick-prev {
   left: 300px !important;
+  z-index: 3;
 }
 .slick-next {
   right: 300px !important;
+  z-index: 3;
 }
 /* contact */
 #contact{
