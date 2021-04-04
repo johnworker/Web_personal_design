@@ -134,10 +134,9 @@ section .menu{
     float: left;
     width: 120px;
     height: 100vh;
-    padding: 15px;
-    line-height: 30px;
+    padding: 10px;
+    line-height: 40px;
     font-size: .9rem;
-
 }
 
 .point_1{
