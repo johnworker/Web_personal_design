@@ -189,30 +189,55 @@ section a{
   width: 500px;
   height: 500px;
   margin: 0 auto;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.portfolio1 img:hover {
+  border-radius: 20px;
 }
 .portfolio2 img{
   object-fit: cover;
   width: 500px;
   height: 500px;
   margin: 0 auto;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.portfolio2 img:hover {
+  border-radius: 20px;
 }
 .portfolio3 img{
   object-fit: cover;
   width: 500px;
   height: 500px;
   margin: 0 auto;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.portfolio3 img:hover {
+  border-radius: 20px;
 }
 .portfolio4 img{
   object-fit: cover;
   width: 500px;
   height: 500px;
   margin: 0 auto;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.portfolio4 img:hover {
+  border-radius: 20px;
 }
 .portfolio5 img{
   object-fit: cover;
   width: 500px;
   height: 500px;
   margin: 0 auto;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.portfolio5 img:hover {
+  border-radius: 20px;
 }
 .slick-prev {
   left: 300px !important;
