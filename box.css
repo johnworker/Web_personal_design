@@ -175,6 +175,51 @@ section a{
   right: 30px;
   bottom: -383px;
 }
+.portfolio {
+  width: 100%;
+  margin: 0 auto;
+}
+.portfolio h2 {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.portfolio1 img{
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+.portfolio2 img{
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+.portfolio3 img{
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+.portfolio4 img{
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+.portfolio5 img{
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+.slick-prev {
+  left: 300px !important;
+}
+.slick-next {
+  right: 300px !important;
+}
 /* contact */
 #contact{
     position: relative;
