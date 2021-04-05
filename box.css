@@ -190,7 +190,7 @@ section a{
   height: 500px;
   margin: 0 auto;
   border-radius: 50%;
-  transition: 0.5s;
+  transition: 1s !important;
 }
 .portfolio1 img:hover {
   border-radius: 20px;
@@ -201,7 +201,7 @@ section a{
   height: 500px;
   margin: 0 auto;
   border-radius: 50%;
-  transition: 0.5s;
+  transition: 1s !important;
 }
 .portfolio2 img:hover {
   border-radius: 20px;
@@ -212,7 +212,7 @@ section a{
   height: 500px;
   margin: 0 auto;
   border-radius: 50%;
-  transition: 0.5s;
+  transition: 1s !important;
 }
 .portfolio3 img:hover {
   border-radius: 20px;
@@ -223,7 +223,7 @@ section a{
   height: 500px;
   margin: 0 auto;
   border-radius: 50%;
-  transition: 0.5s;
+  transition: 1s !important;
 }
 .portfolio4 img:hover {
   border-radius: 20px;
@@ -234,7 +234,7 @@ section a{
   height: 500px;
   margin: 0 auto;
   border-radius: 50%;
-  transition: 0.5s;
+  transition: 1s !important;
 }
 .portfolio5 img:hover {
   border-radius: 20px;

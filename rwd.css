@@ -248,16 +248,15 @@
     right: 60px !important;
   }
     /* contact */
+    #Contact{
+      height: 80vh;
+    }
     .icon{
         display: block;
         transform: translateX(380%) translateY(400%);
         width: 50px;
         height: 50px;
         margin: 20px;
-    }
-    #Contact{
-      width: 100vw;
-      height: 100vh;
     }
     .contactms{
         position: absolute;
@@ -463,6 +462,9 @@
       right: 150px !important;
     }
     /* contact */
+    #contact{
+      height: 60vh;
+  }
     .sign p{
       position: absolute;
       right: -615px;
@@ -481,7 +483,7 @@
     }
     .icon{
         display: block;
-        transform: translateX(200%) translateY(400%);
+        transform: translateX(0%) translateY(675%);
         width: 50px;
         height: 50px;
         margin: 20px;
@@ -497,8 +499,8 @@
         position: absolute;
         display: block;
         width: 410px;
-        left: 160px;
-        top: 206px;
+        left: 60px;
+        top: 342px;
     }
     small{
       position: absolute;
@@ -511,8 +513,8 @@
    }
     .pencil {
         position: relative;
-        top: 0;
-        left: 850px;
+        top: 30px;
+        left: 550px;
         width: 10%;
         height: 3%;
         /*width: 300px;*/
@@ -589,7 +591,7 @@
       .line {
         position: relative;
         top: 50px;
-        left: 380px;
+        left: 70px;
         /*top: 130px;*/
         /*left: 550px;*/
         height: 3px;
@@ -683,7 +685,7 @@
       height: 100vh;
     }
     .slick-prev, .slick-next {
-      top: 50% !important;
+      top: 60% !important;
     } 
     .slick-prev {
       left: 300px !important;
@@ -694,6 +696,9 @@
       z-index: 3;
     }     
     /* contact */
+    #contact{
+      height: 100vh;
+  }
     .sign p{
       position: absolute;
       right: -615px;
@@ -742,8 +747,8 @@
    }
     .pencil {
         position: relative;
-        top: 0;
-        left: 850px;
+        top: 7px;
+        left: 857px;
         width: 10%;
         height: 3%;
         /*width: 300px;*/
