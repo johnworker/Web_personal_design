@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+}
+
+section {
+    height: 100vh;
+    position: relative;
+    background: #222;
+}
+
+.carousel {
+    top: 150px;
+}
+// 插畫設計
+// 海報設計
+.card_p {
+    margin: 20px 3px;
+    width: 500px;
+    float: left;
+}
+
+// 網頁作品
+.carousel-item {
+    .card {
+        margin: 0 auto;
+
+        h5 {
+            text-align: center;
+        }
+    }
+}

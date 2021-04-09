@@ -239,6 +239,17 @@ section a{
 .portfolio5 img:hover {
   border-radius: 20px;
 }
+.portfolio6 img{
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 50%;
+  transition: 1s !important;
+}
+.portfolio6 img:hover {
+  border-radius: 20px;
+}
 .slick-prev {
   left: 300px !important;
   z-index: 3;
