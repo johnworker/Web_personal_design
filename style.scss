@@ -16,9 +16,19 @@ section {
 // 插畫設計
 // 海報設計
 .card_p {
-    margin: 20px 3px;
-    width: 500px;
+    margin: 20px 50px;
+    width: 400px;
     float: left;
+
+    img {
+        width: 400px;
+    }
+
+    h5 {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 40px;
+    }
 }
 
 // 網頁作品
