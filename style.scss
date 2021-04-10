@@ -51,12 +51,17 @@ body, section {
 }
 
 // 網頁作品
-.carousel-item {
-    .card {
-        margin: 0 auto;
+#view {
+    height: 100vh;
+    
+    .carousel-item {
 
-        h5 {
+        .card {
+            margin: 0 auto;
+
+            h5 {
             text-align: center;
+            }
         }
     }
 }

@@ -50,11 +50,15 @@ body, section {
   color: white;
 }
 
-.carousel-item .card {
+#view {
+  height: 100vh;
+}
+
+#view .carousel-item .card {
   margin: 0 auto;
 }
 
-.carousel-item .card h5 {
+#view .carousel-item .card h5 {
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
