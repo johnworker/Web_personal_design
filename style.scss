@@ -40,6 +40,12 @@ body, section {
 
     img {
         width: 400px;
+        object-fit: cover;
+    }
+
+    .image {
+        height: 500px;
+        object-position: top;
     }
 
     h5 {
