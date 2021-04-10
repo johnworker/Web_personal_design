@@ -4,8 +4,8 @@
     font-family: 微軟正黑體;
 }
 
-section {
-    height: 100vh;
+body, section {
+    height: 100%;
     position: relative;
     background: #222;
 }
@@ -14,6 +14,24 @@ section {
     top: 150px;
 }
 // 插畫設計
+.card_pt {
+    margin: 20px 180px;
+    width: 400px;
+    float: left;
+
+    img {
+        width: 400px;
+    }
+
+    h5 {
+        text-align: center;
+        margin-top: 80px;
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+    }
+}
+
 // 海報設計
 .card_p {
     margin: 20px 50px;
@@ -28,6 +46,7 @@ section {
         text-align: center;
         margin-top: 40px;
         font-size: 40px;
+        color: rgb(255, 255, 255);
     }
 }
 

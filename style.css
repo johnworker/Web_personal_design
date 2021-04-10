@@ -5,14 +5,32 @@
   font-family: 微軟正黑體;
 }
 
-section {
-  height: 100vh;
+body, section {
+  height: 100%;
   position: relative;
   background: #222;
 }
 
 .carousel {
   top: 150px;
+}
+
+.card_pt {
+  margin: 20px 180px;
+  width: 400px;
+  float: left;
+}
+
+.card_pt img {
+  width: 400px;
+}
+
+.card_pt h5 {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
 }
 
 .card_p {
@@ -29,6 +47,7 @@ section {
   text-align: center;
   margin-top: 40px;
   font-size: 40px;
+  color: white;
 }
 
 .carousel-item .card {
