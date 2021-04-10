@@ -9,10 +9,29 @@ body, section {
   height: 100%;
   position: relative;
   background: #222;
+  overflow-x: hidden;
 }
 
 .carousel {
   top: 150px;
+}
+
+@media screen and (max-width: 1024px) {
+  .carousel {
+    top: 400px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .carousel {
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel {
+    top: 220px;
+  }
 }
 
 .card_pt {
@@ -21,8 +40,26 @@ body, section {
   float: left;
 }
 
+@media screen and (max-width: 1024px) {
+  .card_pt {
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .card_pt {
+    margin: 30px;
+  }
+}
+
 .card_pt img {
   width: 400px;
+}
+
+@media screen and (max-width: 960px) {
+  .card_pt img {
+    width: 300px;
+  }
 }
 
 .card_pt h5 {
@@ -31,6 +68,18 @@ body, section {
   font-size: 40px;
   font-weight: 700;
   color: white;
+}
+
+@media screen and (max-width: 960px) {
+  .card_pt h5 {
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card_pt h5 {
+    font-size: 32px;
+  }
 }
 
 .card_p {
@@ -64,6 +113,12 @@ body, section {
 
 #view .carousel-item .card {
   margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  #view .carousel-item .card {
+    width: 14rem !important;
+  }
 }
 
 #view .carousel-item .card:hover {

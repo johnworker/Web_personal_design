@@ -1,3 +1,7 @@
+$tablet: 1024px;                                //平板尺寸 (ipad pro)
+$tablets: 960px;                                //平板尺寸 (ipad)
+$mobile: 767px;                                 //手機尺寸
+
 * {
     margin: 0;
     padding: 0;
@@ -8,10 +12,24 @@ body, section {
     height: 100%;
     position: relative;
     background: #222;
+    overflow-x: hidden;
 }
 
 .carousel {
     top: 150px;
+
+    @media screen and (max-width: $tablet) {
+        top: 400px;
+    }
+
+    @media screen and (max-width: $tablets) {
+        top: 200px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        top: 220px;
+    }
+
 }
 // 插畫設計
 .card_pt {
@@ -19,8 +37,21 @@ body, section {
     width: 400px;
     float: left;
 
+    @media screen and (max-width: $tablet) {
+        margin: 50px;
+    }
+
+    @media screen and (max-width: $tablets) {
+        margin: 30px;
+    }
+
     img {
         width: 400px;
+
+        @media screen and (max-width: $tablets) {
+            width: 300px;
+        }
+    
     }
 
     h5 {
@@ -29,6 +60,16 @@ body, section {
         font-size: 40px;
         font-weight: 700;
         color: rgb(255, 255, 255);
+
+        @media screen and (max-width: $tablets) {
+            padding-right: 100px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            font-size: 32px;
+        }
+    
+    
     }
 }
 
@@ -64,6 +105,10 @@ body, section {
 
         .card {
             margin: 0 auto;
+
+            @media screen and (max-width: $mobile) {
+                width: 14rem !important;
+            }
 
             &:hover {
                 background: yellow;
