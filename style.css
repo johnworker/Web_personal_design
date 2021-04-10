@@ -58,7 +58,16 @@ body, section {
   margin: 0 auto;
 }
 
-#view .carousel-item .card h5 {
+#view .carousel-item .card:hover {
+  background: yellow;
+}
+
+#view .carousel-item .card a {
+  text-decoration: none;
+}
+
+#view .carousel-item .card a h5 {
   text-align: center;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

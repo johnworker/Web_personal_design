@@ -53,15 +53,26 @@ body, section {
 // 網頁作品
 #view {
     height: 100vh;
-    
+
     .carousel-item {
 
         .card {
             margin: 0 auto;
 
-            h5 {
-            text-align: center;
+            &:hover {
+                background: yellow;
             }
+
+            a {
+                text-decoration: none;
+
+                h5 {
+                    text-align: center;
+                    color: black;
+                    
+                }        
+            }
+
         }
     }
 }
