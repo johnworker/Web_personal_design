@@ -88,10 +88,40 @@ body, section {
   float: left;
 }
 
+@media screen and (max-width: 1024px) {
+  .card_p {
+    margin: 56px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .card_p {
+    margin: 135px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card_p {
+    margin: 36px;
+  }
+}
+
 .card_p img {
   width: 400px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (max-width: 960px) {
+  .card_p img {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card_p img {
+    width: 300px;
+  }
 }
 
 .card_p .image {
@@ -105,6 +135,19 @@ body, section {
   margin-top: 40px;
   font-size: 40px;
   color: white;
+}
+
+@media screen and (max-width: 960px) {
+  .card_p h5 {
+    padding-left: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card_p h5 {
+    padding: 0 110px 0 0;
+    font-size: 32px;
+  }
 }
 
 #view {

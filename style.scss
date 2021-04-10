@@ -79,9 +79,30 @@ body, section {
     width: 400px;
     float: left;
 
+    @media screen and (max-width: $tablet) {
+        margin: 56px;
+    }
+
+    @media screen and (max-width: $tablets) {
+        margin: 135px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        margin: 36px;
+    }
+
     img {
         width: 400px;
         object-fit: cover;
+
+        @media screen and (max-width: $tablets) {
+            width: 500px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            width: 300px;
+        }
+
     }
 
     .image {
@@ -94,6 +115,16 @@ body, section {
         margin-top: 40px;
         font-size: 40px;
         color: rgb(255, 255, 255);
+
+        @media screen and (max-width: $tablets) {
+            padding-left: 80px;
+        }
+
+        @media screen and (max-width: $mobile) {
+            padding: 0 110px 0 0;
+            font-size: 32px;
+        }
+
     }
 }
 
