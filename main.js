@@ -1,4 +1,5 @@
 $(".portfolio").slick({
     autoplay: true,
-    autoplaySpeed: 1500
+    autoplaySpeed: 4000,
+    pauseOnHover: false
 });

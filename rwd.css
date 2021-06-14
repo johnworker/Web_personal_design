@@ -74,12 +74,21 @@
       bottom: 20px;
       width: 65%;
   }
+  section nav{
+    width: 100px;
+}
+
   section .menu{
     line-height: 40px;
     padding-top: 110px;
+    width: 120px;
 }
   .menu a{
     font-weight: 600;
+    text-align: center;
+}
+.view {
+  background: rgba(100, 100, 100 ,0.3);
 }
   /* work */
   #work {
@@ -105,6 +114,10 @@
     height: 250px;
   }
   .portfolio5 img {
+    width: 250px;
+    height: 250px;
+  }
+  .portfolio6 img {
     width: 250px;
     height: 250px;
   }
@@ -416,6 +429,7 @@
     header nav{
       left: 100px;
       bottom: 150px;
+      width: 130px;
     }
     header section{
       color: white;
@@ -635,7 +649,7 @@
       position: absolute;
       left: 60px;
       bottom: 150px;
-      width: 65%;
+      width: 130px;
   }
     header section{
       position: absolute;
@@ -680,9 +694,19 @@
     section .menu{
       padding-top: 120px;
   }  
+  .menu li{
+    display: block;
+    float: left;
+    width: 150px;
+    height: 30px;
+}
+.menu a {
+  text-align: center;
+}
+
     /* work */
     #work {
-      height: 100vh;
+      height: 105vh;
     }
     .slick-prev, .slick-next {
       top: 60% !important;

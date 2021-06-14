@@ -35,7 +35,7 @@ header nav{
     position: absolute;
     left: 60px;
     bottom: 150px;
-    width: 65%;
+    width: 130px;
 }
 header h2{
     position: fixed;
@@ -105,7 +105,7 @@ section nav{
     position: absolute;
     right: 20px;
     top: 0;
-    width: 100px;
+    width: 140px;
     height: 100%;
 }
 header a{
@@ -132,7 +132,7 @@ section .menu{
     background-color: yellow;
     position: absolute;
     float: left;
-    width: 120px;
+    width: 160px;
     height: 100vh;
     padding: 10px;
     line-height: 40px;
@@ -149,9 +149,14 @@ section .menu{
 section a{
     text-decoration: none;
 }
-.menu a{
-    color:black;
-    font-size: 15px;
+.view{
+  display: block;
+  color:black;
+  font-size: 15px;
+  transition: 0.5s;
+}
+.view:hover {
+  color: rgb(100, 100, 100);
 }
 /* work */
 #work{
