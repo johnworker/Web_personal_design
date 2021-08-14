@@ -108,6 +108,7 @@ body, section {
 
 .card_p img {
   width: 400px;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -125,7 +126,7 @@ body, section {
 }
 
 .card_p .image {
-  height: 500px;
+  height: 300px;
   -o-object-position: top;
      object-position: top;
 }

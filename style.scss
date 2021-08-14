@@ -93,6 +93,7 @@ body, section {
 
     img {
         width: 400px;
+        height: 300px;
         object-fit: cover;
 
         @media screen and (max-width: $tablets) {
@@ -106,7 +107,7 @@ body, section {
     }
 
     .image {
-        height: 500px;
+        height: 300px;
         object-position: top;
     }
 
