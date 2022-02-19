@@ -5,7 +5,8 @@
   font-family: 微軟正黑體;
 }
 
-body, section {
+body,
+section {
   height: 100%;
   position: relative;
   background: #222;
@@ -82,31 +83,31 @@ body, section {
   }
 }
 
-.card_p {
+.list_box {
   margin: 20px 50px;
   width: 400px;
   float: left;
 }
 
 @media screen and (max-width: 1024px) {
-  .card_p {
+  .list_box {
     margin: 56px;
   }
 }
 
 @media screen and (max-width: 960px) {
-  .card_p {
+  .list_box {
     margin: 135px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .card_p {
+  .list_box {
     margin: 36px;
   }
 }
 
-.card_p img {
+.list_box img {
   width: 400px;
   height: 300px;
   -o-object-fit: cover;
@@ -114,24 +115,24 @@ body, section {
 }
 
 @media screen and (max-width: 960px) {
-  .card_p img {
+  .list_box img {
     width: 500px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .card_p img {
+  .list_box img {
     width: 300px;
   }
 }
 
-.card_p .image {
+.list_box .image {
   height: 300px;
   -o-object-position: top;
      object-position: top;
 }
 
-.card_p h5 {
+.list_box h5 {
   text-align: center;
   margin-top: 40px;
   font-size: 40px;
@@ -139,13 +140,13 @@ body, section {
 }
 
 @media screen and (max-width: 960px) {
-  .card_p h5 {
+  .list_box h5 {
     padding-left: 80px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .card_p h5 {
+  .list_box h5 {
     padding: 0 110px 0 0;
     font-size: 32px;
   }

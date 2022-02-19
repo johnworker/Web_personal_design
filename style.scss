@@ -1,6 +1,6 @@
-$tablet: 1024px;                                //平板尺寸 (ipad pro)
-$tablets: 960px;                                //平板尺寸 (ipad)
-$mobile: 767px;                                 //手機尺寸
+$tablet: 1024px; //平板尺寸 (ipad pro)
+$tablets: 960px; //平板尺寸 (ipad)
+$mobile: 767px; //手機尺寸
 
 * {
     margin: 0;
@@ -8,7 +8,8 @@ $mobile: 767px;                                 //手機尺寸
     font-family: 微軟正黑體;
 }
 
-body, section {
+body,
+section {
     height: 100%;
     position: relative;
     background: #222;
@@ -29,7 +30,6 @@ body, section {
     @media screen and (max-width: $mobile) {
         top: 220px;
     }
-
 }
 // 插畫設計
 .card_pt {
@@ -51,7 +51,6 @@ body, section {
         @media screen and (max-width: $tablets) {
             width: 300px;
         }
-    
     }
 
     h5 {
@@ -68,13 +67,11 @@ body, section {
         @media screen and (max-width: $mobile) {
             font-size: 32px;
         }
-    
-    
     }
 }
 
 // 海報設計
-.card_p {
+.list_box {
     margin: 20px 50px;
     width: 400px;
     float: left;
@@ -103,7 +100,6 @@ body, section {
         @media screen and (max-width: $mobile) {
             width: 300px;
         }
-
     }
 
     .image {
@@ -125,7 +121,6 @@ body, section {
             padding: 0 110px 0 0;
             font-size: 32px;
         }
-
     }
 }
 
@@ -134,7 +129,6 @@ body, section {
     height: 100vh;
 
     .carousel-item {
-
         .card {
             margin: 0 auto;
 
@@ -152,10 +146,8 @@ body, section {
                 h5 {
                     text-align: center;
                     color: black;
-                    
-                }        
+                }
             }
-
         }
     }
 }
