@@ -90,7 +90,8 @@
             <!-- (.portfolio$>h1{標題一}+h2{標題二})*3 -->
             <div class="portfolio1">
                 <h2 data-aos="fade-up" data-aos-duration="1000">太空世界</h2>
-                <img src="./images/space.jpg" alt="太空世界" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <img src="./images/space.jpg" alt="太空世界" data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="1000">
             </div>
             <div class="portfolio2">
                 <h2 data-aos="fade-up" data-aos-duration="1000">水晶裡毀滅世界</h2>
@@ -165,11 +166,11 @@
     <script>
         AOS.init();
     </script>
-    <!-- slick CDN -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- 自訂的JQ -->
     <script src="./main.js"></script>
-    
+    <!-- slick CDN -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     <script>
         $(function () {
 
@@ -200,6 +201,15 @@
 
 
 
+        });
+
+    </script>
+
+    <script>
+        $(".portfolio").slick({
+            autoplay: true,
+            autoplaySpeed: 4000,
+            pauseOnHover: false
         });
 
     </script>
