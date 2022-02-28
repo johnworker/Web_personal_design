@@ -52,6 +52,9 @@ item {
     transform: translateZ(400px);
     position: absolute;
 }
+item:hover {
+    background: yellow;
+}
 
 item img {
     width: 100%;
