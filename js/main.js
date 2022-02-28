@@ -11,7 +11,7 @@ $(document).ready(function($){
     var rotateto = 0;
     var itemCount = $('item').length; // count of items in corousel
     var tcItemInitialRotation = 360/itemCount;
-    var tcZDistance = 240;
+    var tcZDistance = 400;
     
     $('item').each( function(index) {
                    

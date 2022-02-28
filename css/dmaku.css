@@ -45,13 +45,14 @@ item {
     display: block;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 300px;
     -webkit-transform: translateZ(400px);
     -ms-transform: translateZ(400px);
     -o-transform: translateZ(400px);
     transform: translateZ(400px);
     position: absolute;
 }
+
 item img {
     width: 100%;
 }
@@ -60,7 +61,7 @@ item img {
   display: block;
   float: left;
   height: 35px;
-  margin-top: -12.5px;
+  margin-top: 55.5px;
   position: absolute;
   top: 50%;
   width: 100%;
@@ -68,7 +69,6 @@ item img {
 }
 
 .tc-next {
-    background-color: #333;
     color: white;
     display: block;
     float: right;
@@ -79,7 +79,6 @@ item img {
 }
 
 .tc-prev {
-    background-color: #333;
     color: white;
     display: block;
     float: left;
