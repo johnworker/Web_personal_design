@@ -184,4 +184,10 @@ section {
   height: 100vh;
   background: #222;
 }
+
+#works__list .reveal__wrap {
+  width: 500px;
+  height: 100px;
+  background: yellow;
+}
 /*# sourceMappingURL=style.css.map */
