@@ -71,7 +71,7 @@ section {
 }
 
 // 海報設計
-  
+
 .list_box {
     margin: 20px 50px;
     width: 400px;
@@ -154,14 +154,90 @@ section {
 }
 
 // 影片製作
-#works__list {
-    width: 100%;
+#works {
     height: 100vh;
-    background:#222;
+    background: #222;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 100px;
 
-    .reveal__wrap {
-        width: 500px;
-        height: 100px;
-        background: yellow;
+    .side {
+        background: rgba(0, 0, 0, 0.5);
+
+        .sidebar {
+            height: 100%;
+            margin: 0 auto;
+            text-align: center;
+
+            .sidemenu {
+                width: 240px;
+                height: 100px;
+                margin: 0 auto;
+                padding-top: 100px;
+                position: relative;
+                list-style: none;
+
+                a {
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: "微軟正黑體", "serif";
+                    color: #000;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+
+                    .mini_btn {
+                        border: 0.05px solid black;
+                        padding: 10px;
+                        background: white;
+
+                        &:hover {
+                            background: yellow;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .work__list {
+        width: 1000px;
+        height: 100%;
+        background: #000;
+        position: relative;
+
+        .reveal__wrap {
+            width: 100%;
+            padding-top: 50px;
+
+            .case {
+                opacity: 1;
+                width: 100%;
+                height: 200px;
+                border: 0.25px solid #000;
+                background: yellow;
+                margin-bottom: 10px;
+                transform: translate3d(0, 0%, 0);
+
+                &:hover {
+                    transform: translate3d(3, 3%, 3);
+                }
+
+                .case__li {
+                    width: 100%;
+                    height: 100%;
+                    transform: translate3d(0, 0%, 0);
+
+                    &:hover {
+                        transform: translate3d(3, 3%, 3);
+                    }
+    
+                }
+            }
+        }
     }
 }
