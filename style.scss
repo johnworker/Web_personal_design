@@ -258,21 +258,21 @@ section {
                     .pic_one, .pic_two, .pic_three {
                         position: relative;
                         display: block;
-                        left: 220px;
                         top: -107px;
 
                         .p_one {
                             position: absolute;
                             height: 180px;
-                            right: 280px;
-                            opacity: 0;
+                            right: 100px;
+                            display: none;
                         }
 
                         .p_two, .p_three {
                             position: absolute;
                             height: 180px;
-                            right: 280px;
+                            right: 100px;
                             top: 30px;
+                            display: none;
                         }                       
                     }
                 }
