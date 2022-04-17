@@ -300,6 +300,7 @@ section {
   position: absolute;
   height: 180px;
   right: 280px;
+  opacity: 0;
 }
 
 #works .work__list .reveal__wrap .case .case__li .pic_one .p_two, #works .work__list .reveal__wrap .case .case__li .pic_one .p_three, #works .work__list .reveal__wrap .case .case__li .pic_two .p_two, #works .work__list .reveal__wrap .case .case__li .pic_two .p_three, #works .work__list .reveal__wrap .case .case__li .pic_three .p_two, #works .work__list .reveal__wrap .case .case__li .pic_three .p_three {
