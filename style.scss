@@ -172,11 +172,20 @@ section {
 
             .sidemenu {
                 width: 240px;
-                height: 100px;
+                height: 300px;
                 margin: 0 auto;
                 padding-top: 100px;
-                position: relative;
+                position: fixed;
+                left: 30px;
                 list-style: none;
+
+                .mainword {
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: "微軟正黑體", "serif";
+                    color: white;
+                    text-decoration: none;
+                }
 
                 a {
                     font-size: 18px;
@@ -189,6 +198,17 @@ section {
                         text-decoration: none;
                     }
 
+                    .mini_btnmain {
+                        border: 0.05px solid white;
+                        padding: 10px;
+                        background: black;
+
+                        &:hover {
+                            background: yellow;
+                            color: #000;
+                        }
+
+                    }
                     .mini_btn {
                         border: 0.05px solid black;
                         padding: 10px;

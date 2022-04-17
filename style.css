@@ -202,11 +202,20 @@ section {
 
 #works .side .sidebar .sidemenu {
   width: 240px;
-  height: 100px;
+  height: 300px;
   margin: 0 auto;
   padding-top: 100px;
-  position: relative;
+  position: fixed;
+  left: 30px;
   list-style: none;
+}
+
+#works .side .sidebar .sidemenu .mainword {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "微軟正黑體", "serif";
+  color: white;
+  text-decoration: none;
 }
 
 #works .side .sidebar .sidemenu a {
@@ -219,6 +228,17 @@ section {
 
 #works .side .sidebar .sidemenu a:hover {
   text-decoration: none;
+}
+
+#works .side .sidebar .sidemenu a .mini_btnmain {
+  border: 0.05px solid white;
+  padding: 10px;
+  background: black;
+}
+
+#works .side .sidebar .sidemenu a .mini_btnmain:hover {
+  background: yellow;
+  color: #000;
 }
 
 #works .side .sidebar .sidemenu a .mini_btn {
