@@ -24,3 +24,12 @@ $(".box_three").on({
         $(".p_three").hide(500);
     }
 });
+
+$(".box_four").on({
+    mouseenter: function () {
+        $(".p_four").show(500);
+    },
+    mouseleave: function () {
+        $(".p_four").hide(500);
+    }
+});
