@@ -55,6 +55,14 @@ section {
 
 .card_pt img {
   width: 400px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: auto;
+}
+
+.card_pt img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media screen and (max-width: 960px) {
@@ -356,6 +364,7 @@ section {
   width: 100%;
   height: 100%;
   background: yellow;
+  right: 0;
   left: 0;
   top: 0;
   -webkit-transition: 0.5s;
@@ -366,8 +375,8 @@ section {
 .box_two:hover,
 .box_three:hover,
 .box_four:hover {
-  left: -20px;
-  top: -20px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .animate_list {
