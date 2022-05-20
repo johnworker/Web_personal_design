@@ -381,4 +381,56 @@ section {
     }
 }
 
-.view_one {}
+// 作品集頁面
+#large_box {
+    width: 100%;
+    height: 100%;
+
+    button {
+        top: 50%;
+    }
+
+    .container {
+        width: 1500px;
+        height: 100%;
+
+        .slick_track {
+            width: 100%;
+            height: 100%;
+            cursor: auto;
+
+            section {
+                position: relative;
+                width: 400px;
+                height: 100%;
+                box-sizing: border-box;
+                display: block;
+                float: left;
+                margin: 0 50px;
+
+                .wrap_text {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    color: #fff;
+                    z-index: 2;
+                }
+
+                a {
+                    width: 400px;
+                    height: 100%;
+                    display: block;
+                    color: #000;
+                    text-decoration: underline;
+
+                    img {
+                        display: block;
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+}
