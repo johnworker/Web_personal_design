@@ -392,7 +392,9 @@ section {
 
     .container {
         width: 1500px;
-        height: 100%;
+        height: 720px;
+        margin: auto;
+        overflow-y: hidden;
 
         .slick_track {
             width: 100%;
@@ -428,6 +430,7 @@ section {
                     img {
                         display: block;
                         float: left;
+                        margin-bottom: 5px;
                     }
                 }
             }

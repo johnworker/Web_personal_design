@@ -7,15 +7,17 @@
         <meta name="keywords" content="jquery, thumbnails, gallery, menu, navigation, full page, background, image, photo, portfolio, photography"/>
 		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" href="./style.css"/>
-		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    </head>
+
+ 		<!-- Slick CDN -->
+ 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+ 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />    </head>
 
     <body>
 		<main id="large_box">
 			<button></button>
 			<div class="container">
-				<div class="slick_track">
-					<section>
+				<div class="slick_track" role="listbox">
+					<section class="slick_track1">
 						<div class="wrap_text"></div>
 						<a href="">
 							<img src="./images/pho1.jpg" alt="">
@@ -24,16 +26,22 @@
 							<img src="./images/pho11.jpg" alt="">
 						</a>
 					</section>
-					<section>
+					<section class="slick_track2">
 						<div class="wrap_text"></div>
 						<a href="">
-							<img src="./images/portfolio_two.jpg" alt="">
+							<img src="./images/pho2.jpg" alt="">
+							<img src="./images/pho3.jpg" alt="">
+							<img src="./images/pho4.jpg" alt="">
+							<img src="./images/pho12.jpg" alt="">
 						</a>
 					</section>
-					<section>
+					<section class="slick_track3">
 						<div class="wrap_text"></div>
 						<a href="">
-							<img src="./images/portfolio_three.jpg" alt="">
+							<img src="./images/pho6.jpg" alt="">
+							<img src="./images/pho8.jpg" alt="">
+							<img src="./images/pho9.jpg" alt="">
+							<img src="./images/pho10.jpg" alt="">
 						</a>
 					</section>
 					
@@ -41,7 +49,10 @@
 			</div>
 		</main>
 
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		
+		<!-- Slick CDN -->
 		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="./js/slick.js"></script>
     </body>
 </html>
