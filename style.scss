@@ -409,6 +409,7 @@ section {
                 display: block;
                 float: left;
                 margin: 0 50px;
+                overflow-y: hidden;
 
                 .wrap_text {
                     position: absolute;
@@ -426,6 +427,7 @@ section {
                     display: block;
                     color: #000;
                     text-decoration: underline;
+                    z-index: 2;
 
                     img {
                         display: block;

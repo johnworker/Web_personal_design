@@ -459,6 +459,7 @@ section {
   display: block;
   float: left;
   margin: 0 50px;
+  overflow-y: hidden;
 }
 
 #large_box .container .slick_track section .wrap_text {
@@ -477,6 +478,7 @@ section {
   display: block;
   color: #000;
   text-decoration: underline;
+  z-index: 2;
 }
 
 #large_box .container .slick_track section a img {
