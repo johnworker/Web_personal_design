@@ -474,16 +474,22 @@ section {
   z-index: 2;
 }
 
-#large_box .container .slick_track section a {
+#large_box .container .slick_track section .slick {
   width: 400px;
-  height: 130vh;
+  height: 100vh;
   display: block;
   color: #000;
   text-decoration: underline;
   z-index: 5;
 }
 
-#large_box .container .slick_track section a img {
+#large_box .container .slick_track section .slick a {
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+#large_box .container .slick_track section .slick img {
   display: block;
   float: left;
   width: 100%;
