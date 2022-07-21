@@ -385,6 +385,7 @@ section {
 #large_box {
     width: 100%;
     height: 100%;
+    overflow-y: hidden;
 
     button {
         top: 50%;
