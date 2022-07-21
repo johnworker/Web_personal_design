@@ -363,6 +363,9 @@ section {
   color: black;
 }
 
+#max_box {
+  overflow-y: hidden;
+}
 #max_box .large_box {
   width: 100%;
   height: 100%;
