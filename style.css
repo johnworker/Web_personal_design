@@ -363,26 +363,25 @@ section {
   color: black;
 }
 
-#large_box {
+#max_box .large_box {
   width: 100%;
   height: 100%;
-  overflow-y: hidden;
 }
-#large_box button {
+#max_box .large_box button {
   top: 50%;
 }
-#large_box .container {
+#max_box .large_box .container {
   width: 1500px;
   height: 3000px;
   margin: auto;
   overflow-y: hidden;
 }
-#large_box .container .slick_track {
+#max_box .large_box .container .slick_track {
   width: 100%;
   height: 100%;
   cursor: auto;
 }
-#large_box .container .slick_track section {
+#max_box .large_box .container .slick_track section {
   position: relative;
   width: 400px;
   height: 100%;
@@ -394,7 +393,7 @@ section {
   -webkit-animation: boxing 2s linear infinite;
           animation: boxing 2s linear infinite;
 }
-#large_box .container .slick_track section .wrap_text {
+#max_box .large_box .container .slick_track section .wrap_text {
   position: absolute;
   top: 0;
   left: 0;
@@ -403,7 +402,7 @@ section {
   color: #fff;
   z-index: 2;
 }
-#large_box .container .slick_track section .slick {
+#max_box .large_box .container .slick_track section .slick {
   width: 400px;
   height: 100vh;
   display: block;
@@ -411,12 +410,12 @@ section {
   text-decoration: underline;
   z-index: 5;
 }
-#large_box .container .slick_track section .slick a {
+#max_box .large_box .container .slick_track section .slick a {
   width: 100%;
   height: 100%;
   z-index: 100;
 }
-#large_box .container .slick_track section .slick img {
+#max_box .large_box .container .slick_track section .slick img {
   display: block;
   float: left;
   width: 100%;

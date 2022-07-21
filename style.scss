@@ -382,77 +382,78 @@ section {
 }
 
 // 作品集頁面
-#large_box {
-    width: 100%;
-    height: 100%;
-    overflow-y: hidden;
+#max_box {
+    .large_box {
+        width: 100%;
+        height: 100%;
 
-    button {
-        top: 50%;
-    }
+        button {
+            top: 50%;
+        }
 
-    .container {
-        width: 1500px;
-        height: 3000px;
-        margin: auto;
-        overflow-y: hidden;
+        .container {
+            width: 1500px;
+            height: 3000px;
+            margin: auto;
+            overflow-y: hidden;
 
-        .slick_track {
-            width: 100%;
-            height: 100%;
-            cursor: auto;
-
-            section {
-                position: relative;
-                width: 400px;
+            .slick_track {
+                width: 100%;
                 height: 100%;
-                box-sizing: border-box;
-                display: block;
-                float: left;
-                margin: 0 50px;
-                overflow-y: hidden;
-                animation: boxing 2s linear infinite;
+                cursor: auto;
 
-                .wrap_text {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    color: #fff;
-                    z-index: 2;
-                }
-
-                .slick {
+                section {
+                    position: relative;
                     width: 400px;
-                    height: 100vh;
+                    height: 100%;
+                    box-sizing: border-box;
                     display: block;
-                    color: #000;
-                    text-decoration: underline;
-                    z-index: 5;
+                    float: left;
+                    margin: 0 50px;
+                    overflow-y: hidden;
+                    animation: boxing 2s linear infinite;
 
-                    a {
-                        width: 100%;
-                        height: 100%;
-                        z-index: 100;
+                    .wrap_text {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        color: #fff;
+                        z-index: 2;
                     }
 
-                    img {
+                    .slick {
+                        width: 400px;
+                        height: 100vh;
                         display: block;
-                        float: left;
-                        width: 100%;
-                        height: 300px;
-                        margin-bottom: 5px;
-                        object-fit: cover;
-                    }
+                        color: #000;
+                        text-decoration: underline;
+                        z-index: 5;
 
-                    @keyframes boxing {
-                        from {
-                            transform: translateY(0);
-                          }
-                          to {
-                            transform: translateY(-1230px);
-                          }
+                        a {
+                            width: 100%;
+                            height: 100%;
+                            z-index: 100;
+                        }
+
+                        img {
+                            display: block;
+                            float: left;
+                            width: 100%;
+                            height: 300px;
+                            margin-bottom: 5px;
+                            object-fit: cover;
+                        }
+
+                        @keyframes boxing {
+                            from {
+                                transform: translateY(0);
+                            }
+                            to {
+                                transform: translateY(-1230px);
+                            }
+                        }
                     }
                 }
             }
