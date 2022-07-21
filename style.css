@@ -16,19 +16,16 @@ section {
 .carousel {
   top: 150px;
 }
-
 @media screen and (max-width: 1024px) {
   .carousel {
     top: 400px;
   }
 }
-
 @media screen and (max-width: 960px) {
   .carousel {
     top: 200px;
   }
 }
-
 @media screen and (max-width: 767px) {
   .carousel {
     top: 220px;
@@ -40,51 +37,41 @@ section {
   width: 400px;
   float: left;
 }
-
 @media screen and (max-width: 1024px) {
   .card_pt {
     margin: 50px;
   }
 }
-
 @media screen and (max-width: 960px) {
   .card_pt {
     margin: 30px;
   }
 }
-
 .card_pt img {
   width: 400px;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   margin: auto;
 }
-
 .card_pt img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 @media screen and (max-width: 960px) {
   .card_pt img {
     width: 300px;
   }
 }
-
 .card_pt h5 {
   text-align: center;
   margin-top: 80px;
   font-size: 40px;
   font-weight: 700;
-  color: white;
+  color: rgb(255, 255, 255);
 }
-
 @media screen and (max-width: 960px) {
   .card_pt h5 {
     padding-right: 100px;
   }
 }
-
 @media screen and (max-width: 767px) {
   .card_pt h5 {
     font-size: 32px;
@@ -96,63 +83,53 @@ section {
   width: 400px;
   float: left;
 }
-
 @media screen and (max-width: 1024px) {
   .list_box {
     margin: 56px;
   }
 }
-
 @media screen and (max-width: 960px) {
   .list_box {
     margin: 135px;
   }
 }
-
 @media screen and (max-width: 767px) {
   .list_box {
     margin: 36px;
   }
 }
-
 .list_box img {
   width: 400px;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 @media screen and (max-width: 960px) {
   .list_box img {
     width: 500px;
   }
 }
-
 @media screen and (max-width: 767px) {
   .list_box img {
     width: 300px;
   }
 }
-
 .list_box .image {
   height: 300px;
   -o-object-position: top;
      object-position: top;
 }
-
 .list_box h5 {
   text-align: center;
   margin-top: 40px;
   font-size: 40px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
-
 @media screen and (max-width: 960px) {
   .list_box h5 {
     padding-left: 80px;
   }
 }
-
 @media screen and (max-width: 767px) {
   .list_box h5 {
     padding: 0 110px 0 0;
@@ -163,25 +140,20 @@ section {
 #view {
   height: 100vh;
 }
-
 #view .carousel-item .card {
   margin: 0 auto;
 }
-
 @media screen and (max-width: 767px) {
   #view .carousel-item .card {
     width: 14rem !important;
   }
 }
-
 #view .carousel-item .card:hover {
   background: yellow;
 }
-
 #view .carousel-item .card a {
   text-decoration: none;
 }
-
 #view .carousel-item .card a h5 {
   text-align: center;
   color: black;
@@ -191,23 +163,18 @@ section {
   height: 100vh;
   background: #222;
   padding-top: 50px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 20% 80%;
-      grid-template-columns: 20% 80%;
+  grid-template-columns: 20% 80%;
   grid-gap: 50px;
 }
-
 #works .side {
   background: rgba(0, 0, 0, 0.5);
 }
-
 #works .side .sidebar {
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-
 #works .side .sidebar .sidemenu {
   width: 240px;
   height: 300px;
@@ -217,7 +184,6 @@ section {
   left: 30px;
   list-style: none;
 }
-
 #works .side .sidebar .sidemenu .mainword {
   font-size: 18px;
   font-weight: 600;
@@ -225,7 +191,6 @@ section {
   color: white;
   text-decoration: none;
 }
-
 #works .side .sidebar .sidemenu a {
   font-size: 18px;
   font-weight: 600;
@@ -233,74 +198,59 @@ section {
   color: #000;
   text-decoration: none;
 }
-
 #works .side .sidebar .sidemenu a:hover {
   text-decoration: none;
 }
-
 #works .side .sidebar .sidemenu a .mini_btnmain {
   border: 0.05px solid white;
   padding: 10px;
   background: black;
 }
-
 #works .side .sidebar .sidemenu a .mini_btnmain:hover {
   background: yellow;
   color: #000;
 }
-
 #works .side .sidebar .sidemenu a .mini_btn {
   border: 0.05px solid black;
   padding: 10px;
   background: white;
 }
-
 #works .side .sidebar .sidemenu a .mini_btn:hover {
   background: yellow;
 }
-
 #works .work__list {
   width: 1000px;
   height: 100%;
   background: #000;
   position: relative;
 }
-
 #works .work__list .reveal__wrap {
   width: 100%;
   padding-top: 50px;
 }
-
 #works .work__list .reveal__wrap .case {
   opacity: 1;
   width: 100%;
   height: 200px;
   border: 0.25px solid #000;
   margin-bottom: 50px;
-  -webkit-transform: translate3d(0, 0%, 0);
-          transform: translate3d(0, 0%, 0);
+  transform: translate3d(0, 0%, 0);
 }
-
 #works .work__list .reveal__wrap .case:hover {
-  -webkit-transform: translate3d(3, 3%, 3);
-          transform: translate3d(3, 3%, 3);
+  transform: translate3d(3, 3%, 3);
 }
-
 #works .work__list .reveal__wrap .case a {
   width: 100%;
   height: 100%;
 }
-
 #works .work__list .reveal__wrap .case a:hover {
   text-decoration: none;
 }
-
 #works .work__list .reveal__wrap .case .case__li {
   width: 100%;
   height: 100%;
   background-color: #333;
 }
-
 #works .work__list .reveal__wrap .case .case__li .w {
   padding: 40px 0 0 40px;
   font-size: 24px;
@@ -308,7 +258,6 @@ section {
   font-family: sans-serif;
   color: black;
 }
-
 #works .work__list .reveal__wrap .case .case__li .p {
   padding: 10px 0 0 40px;
   font-size: 20px;
@@ -316,7 +265,6 @@ section {
   font-family: sans-serif;
   color: black;
 }
-
 #works .work__list .reveal__wrap .case .case__li .pic_one,
 #works .work__list .reveal__wrap .case .case__li .pic_two,
 #works .work__list .reveal__wrap .case .case__li .pic_three,
@@ -325,7 +273,6 @@ section {
   display: block;
   top: -107px;
 }
-
 #works .work__list .reveal__wrap .case .case__li .pic_one .p_one,
 #works .work__list .reveal__wrap .case .case__li .pic_two .p_one,
 #works .work__list .reveal__wrap .case .case__li .pic_three .p_one,
@@ -335,7 +282,6 @@ section {
   right: 100px;
   display: none;
 }
-
 #works .work__list .reveal__wrap .case .case__li .pic_one .p_two,
 #works .work__list .reveal__wrap .case .case__li .pic_one .p_three,
 #works .work__list .reveal__wrap .case .case__li .pic_one .p_four,
@@ -367,16 +313,13 @@ section {
   right: 0;
   left: 0;
   top: 0;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 .box_one:hover,
 .box_two:hover,
 .box_three:hover,
 .box_four:hover {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .animate_list {
@@ -385,11 +328,9 @@ section {
   background: #000;
   position: relative;
 }
-
 .animate_list .see_wrap {
   width: 100%;
 }
-
 .animate_list .see_wrap .portfolio {
   opacity: 1;
   width: 25%;
@@ -397,29 +338,23 @@ section {
   border: 0.25px solid #000;
   margin: 100px 45px;
   float: left;
-  -webkit-transform: translate3d(0, 0%, 0);
-          transform: translate3d(0, 0%, 0);
+  transform: translate3d(0, 0%, 0);
 }
-
 .animate_list .see_wrap .portfolio a {
   width: 100%;
   height: 100%;
 }
-
 .animate_list .see_wrap .portfolio a:hover {
   text-decoration: none;
 }
-
 .animate_list .see_wrap .portfolio .portfolio_li {
   width: 100%;
   height: 100%;
   background: yellow;
 }
-
 .animate_list .see_wrap .portfolio .portfolio_li .picture_show img {
   width: 274px;
 }
-
 .animate_list .see_wrap .portfolio .portfolio_li .word_show {
   padding: 10px 0 0 40px;
   font-size: 20px;
@@ -432,30 +367,25 @@ section {
   width: 100%;
   height: 100%;
 }
-
 #large_box button {
   top: 50%;
 }
-
 #large_box .container {
   width: 1500px;
   height: 3000px;
   margin: auto;
   overflow-y: hidden;
 }
-
 #large_box .container .slick_track {
   width: 100%;
   height: 100%;
   cursor: auto;
 }
-
 #large_box .container .slick_track section {
   position: relative;
   width: 400px;
   height: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: block;
   float: left;
   margin: 0 50px;
@@ -463,7 +393,6 @@ section {
   -webkit-animation: boxing 2s linear infinite;
           animation: boxing 2s linear infinite;
 }
-
 #large_box .container .slick_track section .wrap_text {
   position: absolute;
   top: 0;
@@ -473,7 +402,6 @@ section {
   color: #fff;
   z-index: 2;
 }
-
 #large_box .container .slick_track section .slick {
   width: 400px;
   height: 100vh;
@@ -482,13 +410,11 @@ section {
   text-decoration: underline;
   z-index: 5;
 }
-
 #large_box .container .slick_track section .slick a {
   width: 100%;
   height: 100%;
   z-index: 100;
 }
-
 #large_box .container .slick_track section .slick img {
   display: block;
   float: left;
@@ -498,26 +424,19 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 @-webkit-keyframes boxing {
   from {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   to {
-    -webkit-transform: translateY(-1230px);
-            transform: translateY(-1230px);
+    transform: translateY(-1230px);
   }
 }
-
 @keyframes boxing {
   from {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   to {
-    -webkit-transform: translateY(-1230px);
-            transform: translateY(-1230px);
+    transform: translateY(-1230px);
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
