@@ -2,4 +2,4 @@
 LEO的個人作品網站
 
 # 範例
-https://johnworker.github.io/Web_what-eat/
+https://johnworker.github.io/Web_personal_design/
